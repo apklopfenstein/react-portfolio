@@ -1,0 +1,44 @@
+/* BEGIN: header styles */
+header {
+    background-image: url("../../images/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 299px;
+    display: flex;
+    align-items: baseline;
+    padding: 0 50px;
+}
+
+header h1 {
+    font-size: 4em;
+    margin-top: auto;
+    bottom: -30px;
+    position: relative;
+}
+
+header nav {
+    margin-top: auto;
+    margin-left: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 50px;
+}
+
+header nav li:first-child {
+    margin-left: 0;
+}
+
+header nav a {
+    font-size: 1.4em;
+}
+
+header nav li a:hover, #contact-me a:hover {
+    text-decoration: underline #b53c4a;
+}
+/* END: header styles */
