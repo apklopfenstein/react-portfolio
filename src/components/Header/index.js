@@ -5,10 +5,10 @@ import './Header.css';
 function Header() {
     return (
         <header>
-        <h1>Alyssa Klopfenstein</h1>
+            <h1>Alyssa Klopfenstein</h1>
 
-        <NavBar />
-    </header>
+            <NavBar />
+        </header>
     )
 };
 
