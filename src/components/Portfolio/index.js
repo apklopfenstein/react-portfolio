@@ -8,6 +8,9 @@ function Portfolio() {
 
             <div class="projects">
                 <Project />
+                <Project />
+                <Project />
+                <Project />
             </div>
         </section>
     );

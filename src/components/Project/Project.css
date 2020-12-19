@@ -1,0 +1,68 @@
+/* BEGIN: grid styles */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 80%;
+    gap: 20px 20px;  
+}
+
+.projects a {
+    height: 200px;
+    border: 1px solid #666;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: relative;
+    opacity: 0.5;
+    background-image: url(../../images/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 250ms opacity;
+}
+
+.projects a:hover {
+    opacity: 1;
+}
+
+.label {
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+    padding: 7px 10px 7px 28px;
+    background-color: #666;
+    color: #FFFFFF;
+    font-size: 0.75em;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.label h3 {
+    color: #FFFFFF;
+    font-size: 1.75em;
+}
+
+.label p {
+    margin-bottom: 0;
+}
+
+.projects .run-buddy {
+    background-image: url(../../images/projects/run-buddy.png);
+    background-size: cover;
+}
+
+.projects .stargazr {
+    background-image: url(../../images/projects/stargazr.jpg);
+    background-size: cover;
+}
+
+.projects .mixer {
+    background-image: url(../../images/projects/mixer.jpg);
+    background-size: cover;
+}
+
+.projects a.showcase {
+    grid-row: span 2;
+    grid-column: span 2;
+    height: 100%;
+}
+/* END: grid styles */

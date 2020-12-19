@@ -1,0 +1,18 @@
+footer{
+    background-image: url("../../images/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 299px;
+    display: flex;
+    align-items: baseline;
+    padding: 0 50px;
+    transform: rotate(180deg);
+    position: relative;
+}
+
+.footer-text {
+    transform: rotate(180deg) translateX(-50%);
+    position: absolute;
+    top: 75px;
+    right: 50%;
+}
