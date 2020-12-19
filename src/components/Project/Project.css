@@ -45,11 +45,6 @@
     margin-bottom: 0;
 }
 
-.projects .run-buddy {
-    background-image: url(../../images/projects/run-buddy.png);
-    background-size: cover;
-}
-
 .projects .stargazr {
     background-image: url(../../images/projects/stargazr.jpg);
     background-size: cover;
