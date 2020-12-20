@@ -1,4 +1,6 @@
 /* BEGIN: about me styles */
+
+
 #about-me p {
     margin-bottom: 1.4em;
     line-height: 1.4em;
@@ -8,6 +10,5 @@
     height: 200px;
     border: 1px solid #666;
     border-radius: 20px;
-    margin-left: 40px;
 }
 /* END: about me styles */

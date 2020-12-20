@@ -32,6 +32,12 @@ a {
 }
 /* END: base styles */
 
+/* BEGIN: nav syles */
+.selected {
+  color: #b53c4a;
+}
+/* END: nav styles */ 
+
 /* BEGIN: common main styles */
 main {
   padding-top: 40px;
@@ -42,15 +48,12 @@ main {
 }
 
 main section {
-  display: flex;
   width: 100%;
   margin-top: 50px;
 }
 
 main section h2 {
   font-size: 2.5em;
-  width: 300px;
-  margin-right: 60px;
-  flex-shrink: 0;
+  margin-bottom: 30px;
 }
 /* END: common main styles */
