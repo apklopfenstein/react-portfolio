@@ -8,6 +8,7 @@ footer{
     padding: 0 50px;
     transform: rotate(180deg);
     position: relative;
+    clear: both;
 }
 
 .footer-text {
@@ -15,4 +16,20 @@ footer{
     position: absolute;
     top: 75px;
     right: 50%;
+}
+
+footer ul {
+    transform: rotate(180deg) translateX(-50%);
+    position: absolute;
+    top: 150px;
+    right: 50%;
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer a:hover {
+    color: #b53c4a;
 }

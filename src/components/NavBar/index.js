@@ -6,7 +6,7 @@ function NavBar() {
         <nav>
             <ul>
                 <li>
-                    <NavLink to="/" activeClassName="selected">About Me</NavLink>
+                    <NavLink exact to="/" activeClassName="selected">About Me</NavLink>
                 </li>
                 <li>
                     <NavLink to="/portfolio" activeClassName="selected">Work</NavLink>

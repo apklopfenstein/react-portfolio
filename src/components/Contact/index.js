@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './Contact.css';
+import Button from 'react-bootstrap/Button';
 
 function validateEmail(email) {
     var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -38,7 +40,7 @@ function ContactForm() {
 
     return (
         <section>
-            <h1>Contact Me</h1>
+            <h2>Contact Me</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -58,7 +60,7 @@ function ContactForm() {
                     </div>
                 )}
                 <div>
-                    <button type="submit">Submit</button>
+                    <Button type="submit">Submit</Button>
                 </div>
             </form>
         </section>
