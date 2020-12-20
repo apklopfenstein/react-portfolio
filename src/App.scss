@@ -1,3 +1,11 @@
+/* bootstrap */
+$theme-colors: (
+  "primary": #fb6d7d,
+  "secondary": #b53c4a
+);
+
+@import "~bootstrap/scss/bootstrap";
+
 /* reset */
 * {
   margin: 0;

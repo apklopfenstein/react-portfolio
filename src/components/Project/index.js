@@ -1,14 +1,22 @@
 import React from 'react';
 import './Project.css';
+import Card from 'react-bootstrap/Card';
 
-function Project() {
-    return(
-        <a class="stargazr" rel="noopener noreferrer" target="_blank" href="https://apklopfenstein.github.io/stargazr/">
-            <div class="label">
-                <h3>Stargazr</h3>
-                <p>Front End Project</p>
-            </div>
-        </a>
+function Project({ project }) {
+    return (
+        <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src={ project.img } />
+            <Card.Body>
+                <Card.Title>{ project.title }</Card.Title>
+                <Card.Text>
+                    { project.technology }
+                </Card.Text>
+            </Card.Body>
+            <Card.Body>
+                <Card.Link href={ project.githubUrl }>GitHub Repo</Card.Link>
+                <Card.Link href={ project.deployUrl }>Deployed App</Card.Link>
+            </Card.Body>
+        </Card>
     );
 }
 
