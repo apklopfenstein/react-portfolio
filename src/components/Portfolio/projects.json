@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Stargazr",
         "technology": "Front End Project",
-        "img": "/images/stargazr.jpg",
+        "img": "/react-portfolio/images/stargazr.jpg",
         "githubUrl": "https://github.com/apklopfenstein/stargazr",
         "deployUrl": "https://apklopfenstein.github.io/stargazr/"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "title": "Mixer",
         "technology": "Full Stack Project",
-        "img": "/images/mixer.jpg",
+        "img": "/react-portfolio/images/mixer.jpg",
         "githubUrl": "https://github.com/apklopfenstein/mixer",
         "deployUrl": "https://afternoon-reef-59917.herokuapp.com/"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "title": "Weather Dashboard",
         "technology": "Server Side API",
-        "img": "/images/weather-dashboard.jpg",
+        "img": "/react-portfolio/images/weather-dashboard.jpg",
         "githubUrl": "https://github.com/apklopfenstein/weather-dashboard",
         "deployUrl": "https://apklopfenstein.github.io/weather-dashboard/"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "title": "Note Taker",
         "technology": "Express",
-        "img": "/images/note-taker.jpg",
+        "img": "/react-portfolio/images/note-taker.jpg",
         "githubUrl": "https://github.com/apklopfenstein/note-taker",
         "deployUrl": "https://limitless-refuge-20384.herokuapp.com/"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "title": "Tech Blog",
         "technology": "MVC",
-        "img": "/images/tech-blog.jpg",
+        "img": "/react-portfolio/images/tech-blog.jpg",
         "githubUrl": "https://github.com/apklopfenstein/tech-blog",
         "deployUrl": "https://murmuring-fortress-02595.herokuapp.com/"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "title": "Pizza Hunt",
         "technology": "NoSQL",
-        "img": "/images/pizza-hunt.jpg",
+        "img": "/react-portfolio/images/pizza-hunt.jpg",
         "githubUrl": "https://github.com/apklopfenstein/pizza-hunt",
         "deployUrl": "https://shielded-ravine-13933.herokuapp.com/"
     }
