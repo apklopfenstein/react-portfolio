@@ -23,3 +23,7 @@
 .card-link {
     font-size: 17px;
 }
+
+.card-link:hover {
+    text-shadow: rgb(181 60 74 / .65) 1px 0 10px;
+}

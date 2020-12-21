@@ -37,8 +37,28 @@ header nav li:first-child {
 header nav a {
     font-size: 1.4em;
 }
-
-header nav li a:hover, #contact-me a:hover {
-    text-decoration: underline #b53c4a;
-}
 /* END: header styles */
+
+@media screen and (max-width: 675px) {
+    header {
+        padding: 0;
+        height: 375px;
+    }
+
+    header nav {
+        bottom: 0;
+        margin: 50px auto;
+    }
+  
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+  
+    header nav li {
+        align-items: center;
+        margin: 5px 0;
+    }
+
+}

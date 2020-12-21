@@ -4,11 +4,11 @@
     flex-wrap: wrap;
 }
 
-li {
+.skills ul li {
     margin-left: 50px;
 }
 
-ul {
+.skills ul {
     margin-top: -25px;
 }
 

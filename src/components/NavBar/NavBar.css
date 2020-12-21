@@ -1,0 +1,5 @@
+nav ul li a:hover {
+    text-shadow: rgb(181 60 74 / .65) 1px 0 10px;
+    text-decoration: none;
+}
+

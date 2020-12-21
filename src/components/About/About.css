@@ -13,5 +13,12 @@
     border: 1px solid #666;
     border-radius: 20px;
     float: right;
+    margin-left: 30px;
 }
 /* END: about me styles */
+
+@media screen and (max-width: 675px) {
+    #about-me h2 {
+        margin-top: 10px;
+    }
+}

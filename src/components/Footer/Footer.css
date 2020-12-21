@@ -30,6 +30,25 @@ footer li {
     display: inline-block;
 }
 
-footer a:hover {
+footer li:not(:first-child) {
+    margin-left: 50px;
+}
+
+footer a {
     color: #b53c4a;
+}
+
+footer a:hover {
+    color: #fb6d7d;
+}
+
+@media screen and (max-width: 675px) {
+    footer ul {
+        margin: auto;
+        width: 208px;
+    }
+
+    .footer-text {
+        top: 20px;
+    }
 }

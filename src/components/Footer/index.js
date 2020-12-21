@@ -13,7 +13,7 @@ function Footer() {
             <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/aklopfenstein/"><FaInstagram size="36px" /></a></li>
         </ul>
 
-        <h2 class="footer-text">Alyssa Klopfenstein &copy; 2020</h2>
+        <h2 className="footer-text">Alyssa Klopfenstein &copy; 2020</h2>
     </footer>
     )
 }
