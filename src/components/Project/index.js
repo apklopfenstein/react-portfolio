@@ -13,8 +13,8 @@ function Project({ project }) {
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-                <Card.Link href={ project.githubUrl }>GitHub Repo</Card.Link>
-                <Card.Link href={ project.deployUrl }>Deployed App</Card.Link>
+                <Card.Link href={ project.githubUrl } target="_blank" rel="noopener noreferrer">GitHub Repo</Card.Link>
+                <Card.Link href={ project.deployUrl } target="_blank" rel="noopener noreferrer">Deployed App</Card.Link>
             </Card.Body>
         </Card>
     );
