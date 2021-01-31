@@ -17,6 +17,14 @@
     },
     {
         "id": 3,
+        "title": "Fairstreem",
+        "technology": "MERN/SPA Project",
+        "img":"/react-portfolio/images/fairstreem.jpg",
+        "githubUrl": "https://github.com/Team-Dreem/fairstreem-mern",
+        "deployUrl": "https://fairstreem.herokuapp.com/"
+    },
+    {
+        "id": 4,
         "title": "Weather Dashboard",
         "technology": "Server Side API",
         "img": "/react-portfolio/images/weather-dashboard.jpg",
@@ -24,7 +32,7 @@
         "deployUrl": "https://apklopfenstein.github.io/weather-dashboard/"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Note Taker",
         "technology": "Express",
         "img": "/react-portfolio/images/note-taker.jpg",
@@ -32,7 +40,7 @@
         "deployUrl": "https://limitless-refuge-20384.herokuapp.com/"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Tech Blog",
         "technology": "MVC",
         "img": "/react-portfolio/images/tech-blog.jpg",
@@ -40,7 +48,7 @@
         "deployUrl": "https://murmuring-fortress-02595.herokuapp.com/"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Pizza Hunt",
         "technology": "NoSQL",
         "img": "/react-portfolio/images/pizza-hunt.jpg",
